@@ -3,7 +3,7 @@ import css from './test.module.css';
 
 export const Test: FC<PropsWithChildren<HTMLAttributes<HTMLDivElement>>>= ({ children, className, ...rest }) => {
     return (
-        <div className={`${css.override} ${className}`} >
+        <div className={`${css.root} ${className}`} >
             {children}
         </div>
     )
