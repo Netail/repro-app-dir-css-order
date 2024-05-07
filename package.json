@@ -1,6 +1,7 @@
 {
   "name": "app-dir-css-order",
   "private": true,
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -14,7 +15,7 @@
     "turbo": "latest"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "workspaces": [
     "apps/*",

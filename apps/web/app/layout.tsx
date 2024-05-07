@@ -1,4 +1,5 @@
-import "./globals.css";
+import { NavigationWrapper } from "../components/navigation-wrapper";
+import "./globals.scss";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,7 +14,11 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NavigationWrapper>
+          {children}
+        </NavigationWrapper>
+      </body>
     </html>
   );
 }

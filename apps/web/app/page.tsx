@@ -1,12 +1,10 @@
-import { TestHeader } from '@repo/ui-navigation/src/test-header';
-import css from './page.module.css';
+import { Test } from '@repo/ui/src/test';
+import type { FC } from 'react';
 
-export default function Page(): JSX.Element {
+const Page: FC = () => {
   return (
-    <main>
-      <TestHeader className={css.override}>
-        Hello world
-      </TestHeader>
-    </main>
+    <Test>Main content</Test>
   );
 }
+
+export default Page;
