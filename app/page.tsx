@@ -1,4 +1,4 @@
-import { Test } from '@repo/ui/src/test';
+import { Test } from '../components/test/test';
 import type { FC } from 'react';
 
 const Page: FC = () => {

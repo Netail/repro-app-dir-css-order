@@ -1,5 +1,5 @@
 import { FC, HTMLAttributes, PropsWithChildren } from "react";
-import { Test } from "@repo/ui/src/test";
+import { Test } from "../test/test";
 import css from './test-header.module.scss';
 
 export const TestHeader: FC<PropsWithChildren<HTMLAttributes<HTMLDivElement>>> = ({ children, className, ...rest }) => {
